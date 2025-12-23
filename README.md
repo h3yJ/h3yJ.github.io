@@ -2,6 +2,12 @@
 
 Static React resume template ready for GitHub Pages.
 
+Preview:
+- python -m http.server 3000
+
+Then open http://localhost:3000 in your browser.
+
+
 ## Files
 - `index.html` – HTML shell + CDN React/Babel
 - `styles.css` – site styling
