@@ -18,7 +18,7 @@ Then open http://localhost:3000 in your browser.
 1. Push this repo to GitHub.
 2. In GitHub: Settings → Pages → Build and deployment → Source: `Deploy from a branch`.
 3. Select `main` branch and `/ (root)` folder.
-4. Save. Your site will appear at `https://<username>.github.io/h3yJ.github.io/`.
+4. Save. Your site will appear at `https://h3yJ.github.io/`.
 
 ## Customize
 Edit `app.js` to update content. Edit `styles.css` to change look and feel.
