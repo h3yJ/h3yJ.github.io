@@ -1,24 +1,28 @@
 ﻿# Jason Yang Resume Site
 
-Static React resume template ready for GitHub Pages.
+React resume site powered by Vite for local development with hot reload.
 
-Preview:
-- python -m http.server 3000
+## Local development
+1. Install dependencies:
+   - `npm install`
+2. Start the dev server:
+   - `npm run dev`
+3. Open the local URL printed by Vite, typically `http://localhost:5173`
 
-Then open http://localhost:3000 in your browser.
+Vite will automatically refresh the page as you edit source files.
 
 
 ## Files
-- `index.html` – HTML shell + CDN React/Babel
+- `index.html` - Vite HTML entry
+- `src/main.jsx` - React bootstrap
 - `styles.css` – site styling
-- `app.js` – resume content + React components
+- `src/App.jsx` – resume content + React components
 - `Jason_Yang_Resume_Oct2025.pdf` – downloadable PDF
 
 ## Deploy (GitHub Pages)
 1. Push this repo to GitHub.
-2. In GitHub: Settings → Pages → Build and deployment → Source: `Deploy from a branch`.
-3. Select `main` branch and `/ (root)` folder.
-4. Save. Your site will appear at `https://<username>.github.io/h3yJ.github.io/`.
+2. Build the site with `npm run build`.
+3. Deploy the generated `dist/` folder using your preferred GitHub Pages workflow.
 
 ## Customize
-Edit `app.js` to update content. Edit `styles.css` to change look and feel.
+Edit `src/App.jsx` to update content. Edit `styles.css` to change look and feel.
