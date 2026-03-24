@@ -3,8 +3,9 @@ const profile = {
   title: "Machine Learning + Data Science",
   phone: "(859) 489-3932",
   email: "jason.yang859@gmail.com",
+  github: "https://github.com/h3yJ/h3yJ.github.io",
   linkedin: "https://www.linkedin.com/in/jyang24/",
-  resume: "Jason_Yang_Resume_Oct2025.pdf",
+  resume: "Jason_Yang_Resume.pdf",
   summary:
     "Graduate student focused on machine learning and scalable data systems, with hands-on experience in analytics, full-stack applications, and research leadership.",
 };
@@ -161,6 +162,9 @@ function App() {
             <a className="button primary" href={`mailto:${profile.email}`}>
               Email me
             </a>
+            <a className="button" href={profile.github} target="_blank" rel="noreferrer">
+              GitHub
+            </a>
             <a className="button" href={profile.linkedin} target="_blank" rel="noreferrer">
               LinkedIn
             </a>
@@ -240,7 +244,7 @@ function App() {
               <h3>
                 {item.link ? (
                   <a href={item.link} target="_blank" rel="noreferrer">
-                    {item.title}
+                    {item.title} <span aria-hidden="true">↗</span>
                   </a>
                 ) : (
                   item.title

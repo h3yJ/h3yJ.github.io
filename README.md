@@ -17,7 +17,7 @@ Vite will automatically refresh the page as you edit source files.
 - `src/main.jsx` - React bootstrap
 - `styles.css` – site styling
 - `src/App.jsx` – resume content + React components
-- `Jason_Yang_Resume_Oct2025.pdf` – downloadable PDF
+- `Jason_Yang_Resume.pdf` – downloadable PDF
 
 ## Deploy (GitHub Pages)
 1. Push this repo to GitHub.
