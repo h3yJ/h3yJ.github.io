@@ -263,7 +263,7 @@ function App() {
         </div>
       </Section>
 
-      <div className="footer">Last updated 2025 · Built with React + GitHub Pages</div>
+      <div className="footer">Last updated 2026 · Built with React + GitHub Pages</div>
     </main>
   );
 }
