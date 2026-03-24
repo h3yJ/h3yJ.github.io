@@ -1,3 +1,5 @@
+import resumePdf from "../Jason_Yang_Resume.pdf";
+
 const profile = {
   name: "Jason Yang",
   title: "Machine Learning + Data Science",
@@ -5,7 +7,7 @@ const profile = {
   email: "jason.yang859@gmail.com",
   github: "https://github.com/h3yJ/h3yJ.github.io",
   linkedin: "https://www.linkedin.com/in/jyang24/",
-  resume: "Jason_Yang_Resume.pdf",
+  resume: resumePdf,
   summary:
     "Graduate student focused on machine learning and scalable data systems, with hands-on experience in analytics, full-stack applications, and research leadership.",
 };
@@ -168,7 +170,7 @@ function App() {
             <a className="button" href={profile.linkedin} target="_blank" rel="noreferrer">
               LinkedIn
             </a>
-            <a className="button" href={profile.resume}>
+            <a className="button" href={profile.resume} target="_blank" rel="noreferrer">
               Download PDF
             </a>
           </div>
