@@ -2,6 +2,8 @@
 
 React resume site powered by Vite for local development with hot reload.
 
+https://h3yj.github.io/
+
 ## Local development
 1. Install dependencies:
    - `npm install`
